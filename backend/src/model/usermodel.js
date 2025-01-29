@@ -64,4 +64,4 @@ const userSchema = new schema({
 
 const userModel = model('User', userSchema);
 
-model.exports = userModel;
+module.exports = userModel;
